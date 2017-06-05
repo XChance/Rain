@@ -7,7 +7,6 @@ import java.util.Random;
 public class Raindrop {
     int x;
     int y ;
-    int z;
     int width;
     int length;
     int yVel;
@@ -17,7 +16,6 @@ public class Raindrop {
 
     public Raindrop(){
         rd = new Random();
-        z = rd.nextInt(20);
         choosePos();
         chooseVel();
         chooseDims();
